@@ -32,8 +32,9 @@
     },
     "suggest": {
         "laravel/framework": "This package require Laravel 5."
-    }
+    },
 
+     "minimum-stability": "stable"
 
 
 }
