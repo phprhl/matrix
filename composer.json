@@ -3,7 +3,7 @@
     "description": "Testing Package Descrption",
     "type": "composer-plugin",
     "license": "MIT",
-    "minimum-stability": "dev",
+    
 
     "version": "2.3.9",
     "authors": [
