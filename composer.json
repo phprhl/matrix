@@ -3,14 +3,18 @@
     "description": "Testing Package Descrption",
     "type": "composer-plugin",
     "license": "MIT",
-    
-
     "version": "dev-master",
+
+    {
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    },
+
     "authors": [
         {
-            "name": "Rahul Singh",
-            "email": "help.matrixinfoline@gmail.com",
-            "homepage": "http://yellowpagesphpscript.com",
+            "name": "Hyleeh",
+            "email": "egemen@kenarkose.com",
+            "homepage": "http://egemenkizilcan.com",
             "role": "Developer / Designer"
         }
     ],
@@ -18,10 +22,13 @@
     "require": {},
 
     "autoload": {
-                "psr-0" : {
-                    "Rahul\\Matrix" : "src"
-                }
-            },
+        "psr-4": {
+            "Rahul\\Matrix\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
     "autoload-dev": {
         "classmap": [
             "tests"
@@ -31,7 +38,6 @@
         "laravel/framework": "This package require Laravel 5."
     }
 
-     
-
+    
 
 }
