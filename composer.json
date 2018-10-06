@@ -5,12 +5,12 @@
     "license": "MIT",
     
 
-    "version": "2.3.9",
+    "version": "dev-master",
     "authors": [
         {
-            "name": "Hyleeh",
-            "email": "egemen@kenarkose.com",
-            "homepage": "http://egemenkizilcan.com",
+            "name": "Rahul Singh",
+            "email": "help.matrixinfoline@gmail.com",
+            "homepage": "http://yellowpagesphpscript.com",
             "role": "Developer / Designer"
         }
     ],
@@ -18,13 +18,10 @@
     "require": {},
 
     "autoload": {
-        "psr-4": {
-            "Rahul\\Matrix\\": "src/"
-        },
-        "files": [
-            "src/Support/helpers.php"
-        ]
-    },
+                "psr-0" : {
+                    "Rahul\\Matrix" : "src"
+                }
+            },
     "autoload-dev": {
         "classmap": [
             "tests"
@@ -32,9 +29,9 @@
     },
     "suggest": {
         "laravel/framework": "This package require Laravel 5."
-    },
+    }
 
-     "minimum-stability": "stable"
+     
 
 
 }
