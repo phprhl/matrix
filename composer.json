@@ -2,6 +2,7 @@
     "name": "rahul94/matrix",
     "description": "Testing Package Descrption",
     "license": "MIT",
+    "type": "package",
     "version": "1.1.0",
 
     "authors": [
