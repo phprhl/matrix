@@ -3,18 +3,20 @@
     "description": "Testing Package Descrption",
     "type": "composer-plugin",
     "license": "MIT",
-    "version": "dev-master",
+    "version": "1.1.0",
 
     "authors": [
         {
-            "name": "Hyleeh",
+            "name": "Rahul SIngh",
             "email": "egemen@kenarkose.com",
             "homepage": "http://egemenkizilcan.com",
             "role": "Developer / Designer"
         }
     ],
 
-    "require": {},
+    "require": {
+        "php": ">=5.5.9"
+    },
 
     "autoload": {
         "psr-4": {
