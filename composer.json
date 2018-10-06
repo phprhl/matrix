@@ -1,0 +1,39 @@
+{
+    "name": "rahul/matrix",
+    "description": "Testing Package Descrption",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "minimum-stability": "dev",
+
+    "version": "2.3.9",
+    "authors": [
+        {
+            "name": "Hyleeh",
+            "email": "egemen@kenarkose.com",
+            "homepage": "http://egemenkizilcan.com",
+            "role": "Developer / Designer"
+        }
+    ],
+
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "Rahul\\Matrix\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests"
+        ]
+    },
+    "suggest": {
+        "laravel/framework": "This package require Laravel 5."
+    }
+
+
+
+}
